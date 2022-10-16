@@ -8,11 +8,14 @@ import { ShortenPipe } from './shorten.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShortenPipe
   ],
   imports: [
     BrowserModule,
     FormsModule,
+  ],
+  exports: [
     ShortenPipe
   ],
   providers: [],
